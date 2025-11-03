@@ -23,7 +23,6 @@
 ---  *** 
 
 ## ✨Estrutura do Projeto
-
 app/
  └── src/main/
      ├── java/com/example/cpcapp/
