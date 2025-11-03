@@ -23,33 +23,33 @@
 ---  *** 
 
 ## ✨Estrutura do Projeto
-'''
- app/
-└── src/main/
-├── java/com/example/cpcapp/
-│ ├── ui/
-│ │ ├── MainActivity.kt
-│ │ └── DetalhesActivity.kt
-│ ├── adapter/
-│ │ └── PecaAdapter.kt
-│ └── model/
-│ └── Peca.kt
-├── res/
-│ ├── layout/
-│ │ ├── activity_main.xml
-│ │ ├── activity_detalhes.xml
-│ │ └── item_peca.xml
-│ ├── values/
-│ │ ├── strings.xml (inglês)
-│ │ ├── colors.xml
-│ ├── values-pt-rBR/
-│ │ └── strings.xml (português)
-│ └── drawable/
-│ ├── processador.png
-│ ├── placa_mae.png
-│ └── ...
-└── AndroidManifest.xml
-'''
+
+app/
+ └── src/main/
+     ├── java/com/example/cpcapp/
+     │   ├── ui/
+     │   │   ├── MainActivity.kt
+     │   │   └── DetalhesActivity.kt
+     │   ├── adapter/
+     │   │   └── PecaAdapter.kt
+     │   └── model/
+     │       └── Peca.kt
+     ├── res/
+     │   ├── layout/
+     │   │   ├── activity_main.xml
+     │   │   ├── activity_detalhes.xml
+     │   │   └── item_peca.xml
+     │   ├── values/
+     │   │   ├── strings.xml (inglês)
+     │   │   ├── colors.xml
+     │   ├── values-pt-rBR/
+     │   │   └── strings.xml (português)
+     │   └── drawable/
+     │       ├── processador.png
+     │       ├── placa_mae.png
+     │       └── ...
+     └── AndroidManifest.xml
+
 
 ## Status
 *✔ Concluído - protótipo funcional com lista de peças de computadores, tela de detalhes e ações
