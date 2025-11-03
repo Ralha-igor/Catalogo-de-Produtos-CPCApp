@@ -20,7 +20,7 @@
 ✨Tecnologias Utilizadas Android Studio - IDE principal Kotlin - Linguagem de programação (100%) XML - Layout das interfaces Android SDK - Framework nativo Material Design - Componentes de UI modernos
 
 ✨Activities Principais MainActivity - Lista principal do catálogo PartDetailActivity - Tela de detalhes das peças SettingsActivity - Configurações de tema e idioma
----  ***
+---  *** 
 
 ## ✨Estrutura do Projeto
 1. Item app/
