@@ -80,10 +80,7 @@ Me chamo Igor Ralha, sou estudante do IFSP - CAMPUS ARARAQUARA desde 2024
 - [Portfólio Web]()
 
 ## Demonstração
-*Acessar Vídeo do aplicativo*
-## 🎥 Demonstração
-
-*Acessar vídeo do aplicativo:*  
+*Acessar Vídeo do aplicativo* 
 
 [▶️ Assista no YouTube](https://youtube.com/shorts/nxIsXTWWBTE?feature=share)
 
