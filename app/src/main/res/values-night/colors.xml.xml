@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Cores primárias (modo escuro) -->
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+
+    <!-- Cores de texto e fundo (modo escuro) -->
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="background">#FF121212</color>
+    <color name="surface">#FF1E1E1E</color>
+
+    <!-- Cores de texto (modo escuro) -->
+    <color name="text_primary">#FFFFFFFF</color>
+    <color name="text_secondary">#B3FFFFFF</color>
+    <color name="text_hint">#80FFFFFF</color>
+
+    <!-- Cores para o app de peças (modo escuro) -->
+    <color name="primary">#FF90CAF9</color>
+    <color name="primary_dark">#FF64B5F6</color>
+    <color name="accent">#FFFFB74D</color>
+    <color name="price_color">#FF81C784</color>
+    <color name="card_background">#FF1E1E1E</color>
+    <color name="border_color">#FF424242</color>
+
+    <!-- Cores de estado (modo escuro) -->
+    <color name="error_color">#FFF44336</color>
+    <color name="success_color">#FF66BB6A</color>
+    <color name="warning_color">#FFFFA726</color>
+</resources>

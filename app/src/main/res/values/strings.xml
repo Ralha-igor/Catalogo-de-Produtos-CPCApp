@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App Name -->
+    <string name="app_name">CPC App</string>
+
+    <!-- PC Parts Categories -->
+    <string name="processador">Processor</string>
+    <string name="placa_mae">Motherboard</string>
+    <string name="memoria_ram">RAM Memory</string>
+    <string name="placa_video">Graphics Card</string>
+    <string name="ssd">SSD</string>
+    <string name="fonte">Power Supply</string>
+    <string name="gabinete">Computer Case</string>
+    <string name="cooler">Cooler</string>
+
+    <!-- Parts Descriptions -->
+    <string name="descricao_processador">Intel Core i5-10400F Processor, 10th Gen, 6 Cores, 12 Threads, 2.9GHz up to 4.3GHz, 12MB Cache, LGA1200 Socket</string>
+    <string name="descricao_placa_mae">ASUS Prime B460M-A Motherboard, LGA1200 Socket, Intel B460, mATX, DDR4, HDMI, M.2, USB 3.2 Gen 1</string>
+    <string name="descricao_memoria_ram">Corsair Vengeance LPX 16GB (2x8GB) DDR4 3200MHz, CL16, Black, for Gaming and Overclocking</string>
+    <string name="descricao_placa_video">Galax NVIDIA GeForce RTX 3060 (1-Click OC) 12GB GDDR6, LHR, DLSS, Ray Tracing</string>
+    <string name="descricao_ssd">Samsung 970 Evo Plus 1TB, M.2 NVMe, Read 3500MB/s, Write 3300MB/s, V-NAND 3-bit MLC</string>
+    <string name="descricao_fonte">Corsair CV650 Power Supply, 650W, 80 Plus Bronze, Active PFC, 120mm Fan, Semi-flat Cables</string>
+    <string name="descricao_gabinete">Cooler Master MasterBox Q300L Gaming Case, mATX, Acrylic Side Panel, Dust Filter, Black</string>
+    <string name="descricao_cooler">DeepCool Gammaxx L240 V2 Water Cooler, ARGB, 240mm, 2 Fans, Controller, Intel and AMD Support</string>
+
+    <!-- Interface Texts -->
+    <string name="menu_home">Home</string>
+    <string name="menu_carrinho">Cart</string>
+    <string name="menu_perfil">Profile</string>
+
+    <string name="titulo_lista_pecas">PC Parts</string>
+    <string name="subtitulo_lista_pecas">Build your ideal computer</string>
+
+    <string name="botao_comprar">Buy</string>
+    <string name="botao_adicionar_carrinho">Add to Cart</string>
+    <string name="botao_compartilhar">Share</string>
+    <string name="botao_voltar">Back</string>
+
+    <string name="preco_label">Price:</string>
+    <string name="categoria_label">Category:</string>
+    <string name="descricao_label">Description:</string>
+
+    <string name="carrinho_vazio">Cart is empty</string>
+    <string name="total_pedido">Order Total:</string>
+    <string name="finalizar_compra">Checkout</string>
+
+    <string name="erro_carregamento">Error loading data</string>
+    <string name="tente_novamente">Try again</string>
+
+    <string name="compartilhar_texto">Check out this awesome PC part: %s - %s</string>
+    <string name="compartilhar_titulo">Share part</string>
+
+    <!-- Messages -->
+    <string name="msg_adicionado_carrinho">Part added to cart!</string>
+    <string name="msg_compra_finalizada">Purchase completed successfully!</string>
+    <string name="msg_erro_compartilhar">Error sharing</string>
+
+    <!-- Placeholders -->
+    <string name="placeholder_nome">Part name</string>
+    <string name="placeholder_descricao">Part description will appear here</string>
+    <string name="placeholder_preco">$0.00</string>
+    <string name="placeholder_categoria">Category</string>
+
+    <!-- Sharing Strings -->
+    <string name="compartilhar">Share</string>
+    <string name="categoria_pecas">Parts</string>
+
+    <!-- Titles -->
+    <string name="CPCApp">CPC App</string>
+    <string name="detalhes_peca">Part Details</string>
+</resources>

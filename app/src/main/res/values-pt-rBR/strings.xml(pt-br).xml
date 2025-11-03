@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Nome do App -->
+    <string name="app_name">CPC App</string>
+
+    <!-- Categorias de Peças -->
+    <string name="processador">Processador</string>
+    <string name="placa_mae">Placa-mãe</string>
+    <string name="memoria_ram">Memória RAM</string>
+    <string name="placa_video">Placa de Vídeo</string>
+    <string name="ssd">SSD</string>
+    <string name="fonte">Fonte</string>
+    <string name="gabinete">Gabinete</string>
+    <string name="cooler">Cooler</string>
+
+    <!-- Descrições das Peças -->
+    <string name="descricao_processador">Processador Intel Core i5-10400F, 10ª geração, 6 núcleos, 12 threads, 2.9GHz até 4.3GHz, cache 12MB, soquete LGA1200</string>
+    <string name="descricao_placa_mae">Placa-mãe ASUS Prime B460M-A, soquete LGA1200, Intel B460, mATX, DDR4, HDMI, M.2, USB 3.2 Gen 1</string>
+    <string name="descricao_memoria_ram">Memória Corsair Vengeance LPX 16GB (2x8GB) DDR4 3200MHz, CL16, preta, para games e overclock</string>
+    <string name="descricao_placa_video">Placa de Vídeo Galax NVIDIA GeForce RTX 3060 (1-Click OC) 12GB GDDR6, LHR, DLSS, Ray Tracing</string>
+    <string name="descricao_ssd">SSD Samsung 970 Evo Plus 1TB, M.2 NVMe, leitura 3500MB/s, gravação 3300MB/s, V-NAND 3-bit MLC</string>
+    <string name="descricao_fonte">Fonte Corsair CV650, 650W, 80 Plus Bronze, PFC Ativo, ventilador de 120mm, cabos semiflat</string>
+    <string name="descricao_gabinete">Gabinete Gamer Cooler Master MasterBox Q300L, mATX, lateral em acrílico, com filtro de poeira, preto</string>
+    <string name="descricao_cooler">Water Cooler DeepCool Gammaxx L240 V2, ARGB, 240mm, 2 ventiladores, controlador, suporte Intel e AMD</string>
+
+    <!-- Textos da Interface -->
+    <string name="menu_home">Início</string>
+    <string name="menu_carrinho">Carrinho</string>
+    <string name="menu_perfil">Perfil</string>
+
+    <string name="titulo_lista_pecas">Peças para PC</string>
+    <string name="subtitulo_lista_pecas">Monte seu computador ideal</string>
+
+    <string name="botao_comprar">Comprar</string>
+    <string name="botao_adicionar_carrinho">Adicionar ao Carrinho</string>
+    <string name="botao_compartilhar">Compartilhar</string>
+    <string name="botao_voltar">Voltar</string>
+
+    <string name="preco_label">Preço:</string>
+    <string name="categoria_label">Categoria:</string>
+    <string name="descricao_label">Descrição:</string>
+
+    <string name="carrinho_vazio">Carrinho vazio</string>
+    <string name="total_pedido">Total do Pedido:</string>
+    <string name="finalizar_compra">Finalizar Compra</string>
+
+    <string name="erro_carregamento">Erro ao carregar dados</string>
+    <string name="tente_novamente">Tente novamente</string>
+
+    <string name="compartilhar_texto">Confira esta peça incrível para PC: %s - %s</string>
+    <string name="compartilhar_titulo">Compartilhar peça</string>
+
+    <!-- Mensagens -->
+    <string name="msg_adicionado_carrinho">Peça adicionada ao carrinho!</string>
+    <string name="msg_compra_finalizada">Compra finalizada com sucesso!</string>
+    <string name="msg_erro_compartilhar">Erro ao compartilhar</string>
+
+    <!-- Placeholders -->
+    <string name="placeholder_nome">Nome da peça</string>
+    <string name="placeholder_descricao">Descrição da peça aparecerá aqui</string>
+    <string name="placeholder_preco">R$ 0,00</string>
+    <string name="placeholder_categoria">Categoria</string>
+
+    <!-- Strings de compartilhamento -->
+    <string name="compartilhar">Compartilhar</string>
+    <string name="categoria_pecas">Peças</string>
+
+    <!-- Títulos -->
+    <string name="CPCApp">CPC App</string>
+    <string name="detalhes_peca">Detalhes da Peça</string>
+</resources>
