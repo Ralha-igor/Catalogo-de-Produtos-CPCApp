@@ -21,7 +21,7 @@
 
 ✨Activities Principais MainActivity - Lista principal do catálogo PartDetailActivity - Tela de detalhes das peças SettingsActivity - Configurações de tema e idioma
 ---  *** 
-
+```
 ## ✨Estrutura do Projeto
 app/
  └── src/main/
@@ -49,7 +49,7 @@ app/
      │       └── ...
      └── AndroidManifest.xml
 
-
+```
 ## Status
 *✔ Concluído - protótipo funcional com lista de peças de computadores, tela de detalhes e ações
 nativas do sistema.*
