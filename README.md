@@ -23,7 +23,7 @@
 ---  *** 
 
 ## ✨Estrutura do Projeto
-1. Item app/
+ Item app/
     └── src/main/
     └── java/com/example/cpcapp/
         └── ui/
@@ -33,7 +33,7 @@
             └── PecaAdapter.kt
         └── model/
             └── Peca.kt
-2. Item └── res/
+└── res/
         └── layout/
             ├── activity_main.xml
             ├── activity_detalhes.xml
@@ -47,7 +47,7 @@
             ├── processador.png
             ├── placa_mae.png
             └── ...
-3. Item └── AndroidManifest.xml
+└── AndroidManifest.xml
 
 ## Status
 *✔ Concluído - protótipo funcional com lista de peças de computadores, tela de detalhes e ações
