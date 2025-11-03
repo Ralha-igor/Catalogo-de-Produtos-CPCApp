@@ -81,11 +81,11 @@ Me chamo Igor Ralha, sou estudante do IFSP - CAMPUS ARARAQUARA desde 2024
 
 ## Demonstração
 *Acessar Vídeo do aplicativo*
- [assista no github](https://github.com/user-attachments/assets/2d0181a4-7619-4724-8eb4-e68d0c4c2b95)
- [Assista no Youtube](https://youtube.com/shorts/nxIsXTWWBTE?feature=share)
-![Tela modo claro e Inglês]( <img width="1080" height="2400" alt="Ingles" src="https://github.com/user-attachments/assets/2ba3d500-db33-4730-a0a5-eb2b28324b12" />)
-![Tela modo claro e Inglês](<img width="1080" height="2400" alt="ingles e branco 2" src="https://github.com/user-attachments/assets/ef76b568-bc32-4235-ac20-aba45e6f0d30" /> )
-![Tela modo escuro e Portguês](<img width="1080" height="2400" alt="portugues e preto " src="https://github.com/user-attachments/assets/e70850a0-575a-4a13-a1ff-e62bfabdd5aa" />)
-![Tela modo escuro e Portguês](<img width="1080" height="2400" alt="portugues e preto 2" src="https://github.com/user-attachments/assets/0b41c50c-7c26-408b-96e7-eddaa131d680" />)
-![Tela modo escuro e Portguês](<img width="1080" height="2400" alt="portugues e preto 3" src="https://github.com/user-attachments/assets/5c930b7c-c56e-4f78-b632-3a96160adee6" />)
+ [assista no github, ](https://github.com/user-attachments/assets/2d0181a4-7619-4724-8eb4-e68d0c4c2b95)
+ [Assista no Youtube, ](https://youtube.com/shorts/nxIsXTWWBTE?feature=share)
+ ![Tela modo claro e Inglês, ](<img width="1080" height="2400" alt="Ingles e branco" src="https://github.com/user-attachments/assets/f62a7409-b452-450f-9745-afd1b849f80b" /> )
+ ![Tela modo claro e Inglês, ](<img width="1080" height="2400" alt="ingles e branco 2" src="https://github.com/user-attachments/assets/09dee901-c058-4ed3-858b-134a583307f9" /> )
+ ![Tela modo escuro e Portguês, ]( <img width="1080" height="2400" alt="portugues e preto " src="https://github.com/user-attachments/assets/4a675000-6539-4df8-ad57-246e69c7166e" /> )
+ ![Tela modo escuro e Portguês, ]( <img width="1080" height="2400" alt="portugues e preto 2" src="https://github.com/user-attachments/assets/cf65d03c-814e-41a5-ad44-5bb68b124762" /> )
+ ![Tela modo escuro e Portguês, ](<img width="1080" height="2400" alt="portugues e preto 3" src="https://github.com/user-attachments/assets/07f0515d-752d-4613-b550-74f8863bb44f" /> )
 
