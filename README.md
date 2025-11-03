@@ -91,13 +91,18 @@ Me chamo Igor Ralha, sou estudante do IFSP - CAMPUS ARARAQUARA desde 2024
 
 ### 🖼️ Telas do Aplicativo
 
-#### Modo claro (Inglês)
-![Tela modo claro e Inglês](https://github.com/user-attachments/assets/f62a7409-b452-450f-9745-afd1b849f80b)
-![Tela modo claro e Inglês 2](https://github.com/user-attachments/assets/09dee901-c058-4ed3-858b-134a583307f9)
+#### ☀️ Modo claro (Inglês)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/f62a7409-b452-450f-9745-afd1b849f80b" width="250" />
+  <img src="https://github.com/user-attachments/assets/09dee901-c058-4ed3-858b-134a583307f9" width="250" />
+</p>
 
-#### Modo escuro (Português)
-![Tela modo escuro e Português](https://github.com/user-attachments/assets/4a675000-6539-4df8-ad57-246e69c7166e)
-![Tela modo escuro e Português 2](https://github.com/user-attachments/assets/cf65d03c-814e-41a5-ad44-5bb68b124762)
-![Tela modo escuro e Português 3](https://github.com/user-attachments/assets/07f0515d-752d-4613-b550-74f8863bb44f)
+#### 🌙 Modo escuro (Português)
+<p align="center">
+  <img src="https://github.com/user-attachments/assets/4a675000-6539-4df8-ad57-246e69c7166e" width="250" />
+  <img src="https://github.com/user-attachments/assets/cf65d03c-814e-41a5-ad44-5bb68b124762" width="250" />
+  <img src="https://github.com/user-attachments/assets/07f0515d-752d-4613-b550-74f8863bb44f" width="250" />
+</p>
+
 
 
