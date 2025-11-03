@@ -81,11 +81,23 @@ Me chamo Igor Ralha, sou estudante do IFSP - CAMPUS ARARAQUARA desde 2024
 
 ## Demonstração
 *Acessar Vídeo do aplicativo*
- [assista no github, ](https://github.com/user-attachments/assets/2d0181a4-7619-4724-8eb4-e68d0c4c2b95)
- [Assista no Youtube, ](https://youtube.com/shorts/nxIsXTWWBTE?feature=share)
- ![Tela modo claro e Inglês, ](<img width="1080" height="2400" alt="Ingles e branco" src="https://github.com/user-attachments/assets/f62a7409-b452-450f-9745-afd1b849f80b" /> )
- ![Tela modo claro e Inglês, ](<img width="1080" height="2400" alt="ingles e branco 2" src="https://github.com/user-attachments/assets/09dee901-c058-4ed3-858b-134a583307f9" /> )
- ![Tela modo escuro e Portguês, ]( <img width="1080" height="2400" alt="portugues e preto " src="https://github.com/user-attachments/assets/4a675000-6539-4df8-ad57-246e69c7166e" /> )
- ![Tela modo escuro e Portguês, ]( <img width="1080" height="2400" alt="portugues e preto 2" src="https://github.com/user-attachments/assets/cf65d03c-814e-41a5-ad44-5bb68b124762" /> )
- ![Tela modo escuro e Portguês, ](<img width="1080" height="2400" alt="portugues e preto 3" src="https://github.com/user-attachments/assets/07f0515d-752d-4613-b550-74f8863bb44f" /> )
+## 🎥 Demonstração
+
+*Acessar vídeo do aplicativo:*  
+[▶️ Assista no GitHub](https://github.com/user-attachments/assets/2d0181a4-7619-4724-8eb4-e68d0c4c2b95)  
+[▶️ Assista no YouTube](https://youtube.com/shorts/nxIsXTWWBTE?feature=share)
+
+---
+
+### 🖼️ Telas do Aplicativo
+
+#### Modo claro (Inglês)
+![Tela modo claro e Inglês](https://github.com/user-attachments/assets/f62a7409-b452-450f-9745-afd1b849f80b)
+![Tela modo claro e Inglês 2](https://github.com/user-attachments/assets/09dee901-c058-4ed3-858b-134a583307f9)
+
+#### Modo escuro (Português)
+![Tela modo escuro e Português](https://github.com/user-attachments/assets/4a675000-6539-4df8-ad57-246e69c7166e)
+![Tela modo escuro e Português 2](https://github.com/user-attachments/assets/cf65d03c-814e-41a5-ad44-5bb68b124762)
+![Tela modo escuro e Português 3](https://github.com/user-attachments/assets/07f0515d-752d-4613-b550-74f8863bb44f)
+
 
