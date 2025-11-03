@@ -87,6 +87,7 @@ Me chamo Igor Ralha, sou estudante do IFSP - CAMPUS ARARAQUARA desde 2024
 
 [▶️ Assista no YouTube](https://youtube.com/shorts/nxIsXTWWBTE?feature=share)
 
+
 https://github.com/Ralha-igor/Catalogo-de-Produtos-CPCApp/blob/main/docs/video.mp4
 
 
