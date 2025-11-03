@@ -81,8 +81,8 @@ Me chamo Igor Ralha, sou estudante do IFSP - CAMPUS ARARAQUARA desde 2024
 
 ## Demonstração
 *Acessar Vídeo do aplicativo*
- [![assista no github](https://github.com/user-attachments/assets/2d0181a4-7619-4724-8eb4-e68d0c4c2b95)]
- [![Assista no Youtube](https://youtube.com/shorts/nxIsXTWWBTE?feature=share)]
+ [assista no github](https://github.com/user-attachments/assets/2d0181a4-7619-4724-8eb4-e68d0c4c2b95)
+ [Assista no Youtube](https://youtube.com/shorts/nxIsXTWWBTE?feature=share)
 ![Tela modo claro e Inglês]( <img width="1080" height="2400" alt="Ingles" src="https://github.com/user-attachments/assets/2ba3d500-db33-4730-a0a5-eb2b28324b12" />)
 ![Tela modo claro e Inglês](<img width="1080" height="2400" alt="ingles e branco 2" src="https://github.com/user-attachments/assets/ef76b568-bc32-4235-ac20-aba45e6f0d30" /> )
 ![Tela modo escuro e Portguês](<img width="1080" height="2400" alt="portugues e preto " src="https://github.com/user-attachments/assets/e70850a0-575a-4a13-a1ff-e62bfabdd5aa" />)
