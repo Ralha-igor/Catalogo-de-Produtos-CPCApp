@@ -23,6 +23,7 @@
 ---  *** 
 
 ## ✨Estrutura do Projeto
+'''
  app/
 └── src/main/
 ├── java/com/example/cpcapp/
@@ -48,6 +49,7 @@
 │ ├── placa_mae.png
 │ └── ...
 └── AndroidManifest.xml
+'''
 
 ## Status
 *✔ Concluído - protótipo funcional com lista de peças de computadores, tela de detalhes e ações
