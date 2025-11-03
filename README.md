@@ -35,3 +35,9 @@ app/
             └── ...
     └── AndroidManifest.xml
 
+
+
+Acessar Vídeo do aplicativo
+https://github.com/user-attachments/assets/2d0181a4-7619-4724-8eb4-e68d0c4c2b95
+https://youtube.com/shorts/nxIsXTWWBTE?feature=share
+
