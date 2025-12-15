@@ -1,68 +1,122 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:padding="16dp">
 
-    <LinearLayout
+    <androidx.constraintlayout.widget.ConstraintLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:orientation="vertical">
+        android:layout_height="wrap_content">
 
-        <ImageView
-            android:id="@+id/imgPecaDetalhe"
-            android:layout_width="200dp"
-            android:layout_height="200dp"
-            android:layout_gravity="center_horizontal"
-            android:scaleType="centerCrop"
-            android:contentDescription="@string/processador" />
+        <!-- CARD DA IMAGEM -->
+        <com.google.android.material.card.MaterialCardView
+            android:id="@+id/cardImagemDetalhe"
+            android:layout_width="0dp"
+            android:layout_height="240dp"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="8dp"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent">
 
+            <ImageView
+                android:id="@+id/imgPecaDetalhe"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:adjustViewBounds="true"
+                android:scaleType="centerCrop"
+                android:src="@drawable/ic_image_placeholder"
+                android:contentDescription="@string/app_name" />
+        </com.google.android.material.card.MaterialCardView>
+
+        <!-- NOME -->
         <TextView
             android:id="@+id/txtNomeDetalhe"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="Nome da Peça"
+            android:layout_marginTop="16dp"
+            android:gravity="center"
+            android:text="Nome do Local"
             android:textSize="24sp"
             android:textStyle="bold"
-            android:gravity="center"
-            android:layout_marginTop="16dp" />
+            app:layout_constraintTop_toBottomOf="@id/cardImagemDetalhe"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
 
+        <!-- CATEGORIA -->
         <TextView
             android:id="@+id/txtCategoriaDetalhe"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
             android:text="Categoria"
             android:textSize="18sp"
-            android:gravity="center"
-            android:layout_marginTop="8dp" />
+            android:textColor="#666666"
+            app:layout_constraintTop_toBottomOf="@id/txtNomeDetalhe"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
 
+        <!-- PREÇO -->
         <TextView
             android:id="@+id/txtPrecoDetalhe"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:gravity="center"
             android:text="R$ 0,00"
             android:textSize="20sp"
             android:textStyle="bold"
-            android:gravity="center"
-            android:layout_marginTop="8dp"
-            android:textColor="@color/design_default_color_primary" />
+            android:textColor="@color/design_default_color_primary"
+            app:layout_constraintTop_toBottomOf="@id/txtCategoriaDetalhe"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
 
+        <!-- DESCRIÇÃO -->
         <TextView
             android:id="@+id/txtDescricaoDetalhe"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:text="Descrição da peça"
-            android:textSize="16sp"
             android:layout_marginTop="16dp"
-            android:lineSpacingExtra="4dp" />
+            android:lineSpacingExtra="6dp"
+            android:text="Descrição detalhada..."
+            android:textSize="16sp"
+            app:layout_constraintTop_toBottomOf="@id/txtPrecoDetalhe"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
 
-        <Button
+        <!-- BOTÃO COMPARTILHAR -->
+        <com.google.android.material.button.MaterialButton
             android:id="@+id/btnCompartilhar"
-            android:layout_width="match_parent"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="16dp"
             android:text="@string/compartilhar"
-            android:layout_marginTop="24dp" />
+            app:cornerRadius="12dp"
+            app:layout_constraintTop_toBottomOf="@id/txtDescricaoDetalhe"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
 
-    </LinearLayout>
+        <!-- BOTÃO EXCLUIR -->
+        <com.google.android.material.button.MaterialButton
+            android:id="@+id/btnExcluir"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Excluir"
+            android:textColor="@android:color/white"
+            android:layout_marginTop="12dp"
+            android:layout_marginBottom="16dp"
+            app:backgroundTint="@android:color/holo_red_dark"
+            app:cornerRadius="12dp"
+            app:layout_constraintTop_toBottomOf="@id/btnCompartilhar"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintEnd_toEndOf="parent" />
+
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
 
 </ScrollView>

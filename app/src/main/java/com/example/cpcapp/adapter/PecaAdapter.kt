@@ -1,44 +1,70 @@
 package com.example.cpcapp.adapter
-
+import android.content.Context
 import android.view.LayoutInflater
-import android.view.View
 import android.view.ViewGroup
-import android.widget.ImageView
-import android.widget.TextView
 import androidx.recyclerview.widget.RecyclerView
-import com.example.cpcapp.R
+import com.bumptech.glide.Glide
+import com.example.cpcapp.databinding.ItemLocalBinding
 import com.example.cpcapp.model.Peca
 
 class PecaAdapter(
-    private val pecas: List<Peca>,
-    private val onItemClick: (Peca) -> Unit
-) : RecyclerView.Adapter<PecaAdapter.PecaViewHolder>() {
+    private val context: Context,
+    private val onClick: (Peca) -> Unit
+) : RecyclerView.Adapter<PecaAdapter.LocalViewHolder>() {
 
-    class PecaViewHolder(itemView: View) : RecyclerView.ViewHolder(itemView) {
-        val imagem: ImageView = itemView.findViewById(R.id.imgPeca)
-        val nome: TextView = itemView.findViewById(R.id.txtNome)
-        val categoria: TextView = itemView.findViewById(R.id.txtCategoria)
-        val preco: TextView = itemView.findViewById(R.id.txtPreco)
+    private var listaLocais: MutableList<Peca> = mutableListOf()
+    private var listaOriginal: List<Peca> = listOf()
+
+    fun submitList(novaLista: List<Peca>) {
+        listaOriginal = novaLista // Guarda lista completa
+        listaLocais.clear()
+        listaLocais.addAll(novaLista)
+        notifyDataSetChanged()
     }
 
-    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): PecaViewHolder {
-        val view = LayoutInflater.from(parent.context)
-            .inflate(R.layout.item_peca, parent, false)
-        return PecaViewHolder(view)
+    fun filtrar(texto: String) {
+        listaLocais.clear()
+        if (texto.isEmpty()) {
+            listaLocais.addAll(listaOriginal)
+        } else {
+            listaLocais.addAll(
+                listaOriginal.filter {
+                    it.nome.contains(texto, ignoreCase = true)
+                }
+            )
+        }
+        notifyDataSetChanged()
     }
 
-    override fun onBindViewHolder(holder: PecaViewHolder, position: Int) {
-        val peca = pecas[position]
+    inner class LocalViewHolder(val binding: ItemLocalBinding) :
+        RecyclerView.ViewHolder(binding.root) {
 
-        holder.imagem.setImageResource(peca.imagem)
-        holder.nome.text = peca.nome
-        holder.categoria.text = peca.categoria
-        holder.preco.text = peca.preco
+        fun bind(local: Peca) {
+            binding.txtNome.text = local.nome
+            binding.txtCategoria.text = local.categoria
+            binding.txtPreco.text = "R$ %.2f".format(local.preco)
 
-        holder.itemView.setOnClickListener {
-            onItemClick(peca)
+            // Carrega a imagem com Glide
+            Glide.with(context)
+                .load(local.imagemUri)
+                .into(binding.imgLocal)
+
+            binding.root.setOnClickListener {
+                onClick(local)
+            }
         }
     }
 
-    override fun getItemCount(): Int = pecas.size
+    override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): LocalViewHolder {
+        val binding = ItemLocalBinding.inflate(
+            LayoutInflater.from(parent.context), parent, false
+        )
+        return LocalViewHolder(binding)
+    }
+
+    override fun onBindViewHolder(holder: LocalViewHolder, position: Int) {
+        holder.bind(listaLocais[position])
+    }
+
+    override fun getItemCount(): Int = listaLocais.size
 }
