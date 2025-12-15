@@ -4,55 +4,66 @@
 > Projeto Android desenvolvido como parte do curso de Desenvolvimento Mobile no IFSP
 
 ## Descrição
-*Um aplicativo web moderno para catálogo de peças de computador com suporte a múltiplos idiomas e temas.*
+*Um aplicativo Android moderno para catálogo de peças de computador, com suporte a múltiplos idiomas (Português e Inglês) e temas (claro e escuro), proporcionando navegação fluida e interface intuitiva para visualização e gerenciamento das peças.*
 
 ### Funcionalidades
-- ✨ Características Principais 
-- 🌐 Suporte Multi-idioma: Português e Inglês 
-- 🎨 Temas: Modo escuro e claro 
-- 📱 Design Nativo Android: Interface fluida e responsiva 
-- 🔍 Catálogo Organizado: Visualização fácil das peças de PC 
-- 📋 Detalhes Completos: Activity dedicada para cada componente 
-- 📤 Compartilhamento: Funcionalidade nativa de compartilhar peças 
-- ⚡ Performance Otimizada: Desempenho suave com Kotlin
+	✨ Catálogo de Peças: Visualização organizada de componentes de PC
+ 	🌐 Suporte Multi-idioma: Português e Inglês
+	🎨 Temas Escuro e Claro: Alternância fácil para diferentes condições de iluminação
+	📱 Interface Nativa Android: Layout responsivo e fluido
+	📋 Detalhes Completos: Activity dedicada para cada peça com informações completas
+	📤 Compartilhamento: Possibilidade de compartilhar informações de peças diretamente
+	⚡ Performance Otimizada: Desempenho suave utilizando Kotlin e RecyclerView
+	🔍 Pesquisa e Filtro: Localização rápida de peças no catálogo
 
 ## Tecnologias Utilizadas
 ✨Tecnologias Utilizadas Android Studio - IDE principal Kotlin - Linguagem de programação (100%) XML - Layout das interfaces Android SDK - Framework nativo Material Design - Componentes de UI modernos
 
-✨Activities Principais MainActivity - Lista principal do catálogo PartDetailActivity - Tela de detalhes das peças SettingsActivity - Configurações de tema e idioma
+✨Activities Principais MainActivity - Lista principal do catálogo PartDetailActivity - Tela de detalhes das peças SettingsActivity - Configurações de tema e idioma - CadastroActivity – Formulário para adicionar novas peças
 ---  *** 
 ```
 ## ✨Estrutura do Projeto
 app/
  └── src/main/
      ├── java/com/example/cpcapp/
-     │   ├── ui/
-     │   │   ├── MainActivity.kt
-     │   │   └── DetalhesActivity.kt
      │   ├── adapter/
      │   │   └── PecaAdapter.kt
-     │   └── model/
-     │       └── Peca.kt
+     │   ├── data/
+     │   │   ├── dao/
+     │   │   │   └── LocalDao.kt
+     │   │   └── database/
+     │   │       └── AppDatabase.kt
+     │   ├── model/
+     │   │   └── Peca.kt
+     │   └── ui/
+     │       ├── MainActivity.kt
+     │       ├── DetalhesActivity.kt
+     │       └── CadastroActivity.kt
+     │
      ├── res/
+     │   ├── drawable/
+     │   │   ├── processador.png
+     │   │   ├── placa_mae.png
+     │   │   └── ...
      │   ├── layout/
      │   │   ├── activity_main.xml
      │   │   ├── activity_detalhes.xml
+     │   │   ├── activity_cadastro.xml
      │   │   └── item_peca.xml
      │   ├── values/
-     │   │   ├── strings.xml (inglês)
+     │   │   ├── strings.xml
      │   │   ├── colors.xml
      │   ├── values-pt-rBR/
-     │   │   └── strings.xml (português)
-     │   └── drawable/
-     │       ├── processador.png
-     │       ├── placa_mae.png
-     │       └── ...
+     │   │   └── strings.xml
      └── AndroidManifest.xml
+
+
+
+
 
 ```
 ## Status
-*✔ Concluído - protótipo funcional com lista de peças de computadores, tela de detalhes e ações
-nativas do sistema.*
+*✔ Concluído - protótipo funcional com catálogo completo de peças de computador, tela de detalhes detalhada e integração com as ações nativas do sistema.*
 
 ## Aprendizados e Desafios
 - Uso adequado do ciclo de vida das Activities
@@ -82,7 +93,9 @@ Me chamo Igor Ralha, sou estudante do IFSP - CAMPUS ARARAQUARA desde 2024
 ## Demonstração
 *Acessar Vídeo do aplicativo* 
 
-[▶️ Assista no YouTube](https://youtube.com/shorts/nxIsXTWWBTE?feature=share)
+[▶️ Assista no YouTube demonstração do app ](https://www.youtube.com/shorts/0WNwY_A2MNc)
+
+[▶️ Assista no YouTube explicação do código](https://www.youtube.com/watch?v=NzFYm57QolQ)
 
 https://github.com/user-attachments/assets/00c308ea-9d38-429b-954b-1cc903a95522
 
@@ -102,6 +115,8 @@ https://github.com/user-attachments/assets/00c308ea-9d38-429b-954b-1cc903a95522
   <img src="https://github.com/user-attachments/assets/cf65d03c-814e-41a5-ad44-5bb68b124762" width="250" />
   <img src="https://github.com/user-attachments/assets/07f0515d-752d-4613-b550-74f8863bb44f" width="250" />
 </p>
+
+
 
 
 
