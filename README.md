@@ -107,6 +107,9 @@ https://github.com/user-attachments/assets/00c308ea-9d38-429b-954b-1cc903a95522
 <p align="center">
   <img src="https://github.com/user-attachments/assets/f62a7409-b452-450f-9745-afd1b849f80b" width="250" />
   <img src="https://github.com/user-attachments/assets/09dee901-c058-4ed3-858b-134a583307f9" width="250" />
+  <img src="https://github.com/Ralha-igor/Catalogo-de-Produtos-CPCApp/blob/main/docs/Tela%20principal.jpeg" width="250" />
+  <img src="https://github.com/Ralha-igor/Catalogo-de-Produtos-CPCApp/blob/main/docs/cadastro%20de%20pecas.jpeg%20(codifica%C3%A7%C3%A3o%20inv%C3%A1lida)" width="250" />
+  <img src="hhttps://github.com/Ralha-igor/Catalogo-de-Produtos-CPCApp/blob/main/docs/visualizando%20pecas.jpeg%20(codifica%C3%A7%C3%A3o%20inv%C3%A1lida)" width="250" />
 </p>
 
 #### 🌙 Modo escuro (Português)
