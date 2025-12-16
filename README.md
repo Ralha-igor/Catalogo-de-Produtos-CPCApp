@@ -102,8 +102,6 @@ https://github.com/user-attachments/assets/d3d34bf7-12dd-40f3-957d-32a6bd2fb076
 ---
 
 ### 🖼️ Telas do Aplicativo
-
-#### ☀️ Modo claro 
 <p align="center">
 <img src="https://github.com/Ralha-igor/Catalogo-de-Produtos-CPCApp/blob/main/docs/Tela%20principal.jpeg" width="250" />
 <img src="https://github.com/Ralha-igor/Catalogo-de-Produtos-CPCApp/blob/main/docs/cadastro%20de%20pecas.jpeg%20(codifica%C3%A7%C3%A3o%20inv%C3%A1lida)" width="250" />
