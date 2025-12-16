@@ -103,16 +103,15 @@ https://github.com/user-attachments/assets/d3d34bf7-12dd-40f3-957d-32a6bd2fb076
 
 ### 🖼️ Telas do Aplicativo
 
-#### ☀️ Modo claro (Inglês)
+#### ☀️ Modo claro 
 <p align="center">
 <img src="https://github.com/Ralha-igor/Catalogo-de-Produtos-CPCApp/blob/main/docs/Tela%20principal.jpeg" width="250" />
 <img src="https://github.com/Ralha-igor/Catalogo-de-Produtos-CPCApp/blob/main/docs/cadastro%20de%20pecas.jpeg%20(codifica%C3%A7%C3%A3o%20inv%C3%A1lida)" width="250" />
 <img width="250" height="1080" alt="visualizando-pecas" src="https://github.com/user-attachments/assets/0bef7fce-120b-4eb0-9c0f-9b0a4264240d" />
 </p>
 
-#### 🌙 Modo escuro (Português)
+#### 🌙 Modo escuro 
 <p align="center">
-	
   <img src="https://github.com/user-attachments/assets/4a675000-6539-4df8-ad57-246e69c7166e" width="250" />
   <img src="https://github.com/user-attachments/assets/cf65d03c-814e-41a5-ad44-5bb68b124762" width="250" />
   <img src="https://github.com/user-attachments/assets/07f0515d-752d-4613-b550-74f8863bb44f" width="250" />
